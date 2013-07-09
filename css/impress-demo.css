@@ -491,9 +491,67 @@ code {
     font-size: 30px;
 }
 
-#conclusion h1 span{
+#conclusion h1{
        padding-left: 10px;
     padding-right: 10px; 
+    background-color: #EAB845;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 150px;
+}
+
+
+#conclusion h2{
+    font-size: 80px;
+}
+
+#conclusion h2 span{
+    font-size: 80px;
+}
+
+
+#conclusion h3{
+    font-size: 40px;
+}
+
+
+
+#conclusion2 h1 span{
+       padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #4CD0B7;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+
+#conclusion2 h2{
+    font-size: 50px;
+}
+
+#conclusion2 h2 span{
+     font-family: 'Tulpen One', Arial, cursive;
+    color: #8C9092;
+    font-weight: normal;
+    font-weight: 100;
+    font-size: 40px;
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #4CD0B7;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 80px;
+   
+ 
+}
+
+
+#conclusion3 h1 span{
+       padding-left: 5px;
+    padding-right: 5px; 
     background-color: #EAB845;
     border-radius: 5px;
     text-align: center;
@@ -501,20 +559,40 @@ code {
 }
 
 
-#conclusion h2{
+#conclusion3 h2{
     font-size: 60px;
 }
 
-#conclusion h2 span{
-     font-family: 'Open Sans Condensed', Arial;
+#conclusion3 h3{
+    font-size: 45px;
+}
+
+#conclusion3 h2 span{
+     font-family: 'Tulpen One', Arial, cursive;
     color: #8C9092;
     font-weight: normal;
     font-weight: 100;
     font-size: 40px;
-
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #EAB845;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 100px;
+   
+ 
 }
 
 
+#fin h1{
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #4CD0B7;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
 
 
 
