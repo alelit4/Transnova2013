@@ -226,15 +226,21 @@ code {
     white-space: nowrap;
 }
 
+/* Colors 
+    Yelow: #f5f5f5;
+    Green: #4CD0B7;
+    Blue: ; 
+*/
+
 #introduction h1{
     border-radius: 5px;
     background-color: #4CD0B7;
-    text-align: left;
+    text-align: center;
     color: #f5f5f5;
 }
 
 #introduction h2{
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -244,16 +250,25 @@ code {
   
 }
 
-#centrarimagen{
-    text-align: center;
+
+#img1{
+  text-align: left;
 }
 
-#slide1 h2 {
+#img2{
+    margin-left: 200px;
+    text-align: right;
+     border-radius: 35px;
+}
+
+#caracteristicas h2 {
     text-align: center;
     font-size: 75px;
 }
 
-#slide1 h2 span{
+#caracteristicas h2 span{
+    padding-left: 5px;
+    padding-right: 5px; 
     background-color: #EAB845;
     border-radius: 5px;
     text-align: left;
@@ -261,76 +276,240 @@ code {
 }
  /*#EAB845 --> Naranja */
 
+#empresa h1{
+    font-size: 120px;
+}
 
-#iot h2 span{
+#empresa h2{
+    font-size: 70px;
+}
+
+#empresa h2 span{
+    padding-left: 5px;
+    padding-right: 5px; 
     background-color: #4CD0B7;
     border-radius: 5px;
     text-align: left;
     color: #f5f5f5;
 }
 
+#empresa h3{
+    text-align: center;
+}
+
 #images img{
     border-radius: 40px;
 }
 
-#nfc h3 span{
-     background-color: #EAB845;
-    border-radius: 5px;
-    text-align: left;
-    color: #f5f5f5;
-}
-
-#planning h2 span{
-	background-color: #4CD0B7;
-    border-radius: 5px;
-    text-align: left;
-    color: #f5f5f5;
-
-}
-
-
-#seguridad h1 span{
-	background-color: #4CD0B7;
-    border-radius: 5px;
-    text-align: left;
-    color: #f5f5f5;
-
-}
-
-
-#ambito h2 span{
+#departamento h1 span{
+    padding-left: 5px;
+    padding-right: 5px; 
     background-color: #EAB845;
     border-radius: 5px;
     text-align: left;
     color: #f5f5f5;
 }
 
+#departamento h2 span{
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #EAB845;
+    border-radius: 5px;
+    text-align: left;
+    color: #f5f5f5;
+}
 
-#ambito h2{
+#objetivo h2 span{
+     padding-left: 5px;
+    padding-right: 5px; 
+	background-color: #4CD0B7;
+    border-radius: 5px;
+    text-align: left;
+    color: #f5f5f5;
+
+}
+
+#objetivo h1{
+       
+        font-size: 200px;
+}
+
+#objetivo h1 span{
+    padding-left: 50px;
+    padding-right: 50px; 
+	background-color: #4CD0B7;
+    border-radius: 5px;
+    text-align: left;
+    color: #f5f5f5;
+
+}
+
+
+
+#alcance h1{
+
+  text-align: center;
+    
+}
+
+#alcance h1 span{
+      padding-left: 200px;
+    padding-right: 200px; 
+    background-color: #EAB845;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+
+#alcance h2{
   font-size: 60px;
 	
 }
 
-#slide3_3 h1{
-	font-size: 80px;
-	margin-bottom: 50px; 
-
+#img3{
+    border-radius: 35px;
 }
 
-#slide3_3 h2{
+#centrarimagen #img3{
+  text-align: center;
+}
+
+#formacion h1 span{
+    font-family: 'Open Sans Condensed', Arial;
+    color: #8C9092;
+    font-weight: normal;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+
+#formacion h2{
 	font-size: 60px;
-	margin-bottom: 50px; 
+}
+
+#formacion h2 span{
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #4CD0B7;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+#crawlers h1 span{
+    font-family: 'Open Sans Condensed', Arial;
+    color: #8C9092;
+    font-weight: normal;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+
+#crawlers h2{
+    font-size: 60px;
+}
+
+#crawlers h2 span{
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #EAB845;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+#bd h1 span{
+    font-family: 'Open Sans Condensed', Arial;
+    color: #8C9092;
+    font-weight: normal;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+
+#bd h2{
+    font-size: 60px;
+}
+
+#bd h2 span{
+    padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #4CD0B7;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+
+#metodologia h1 span{
+       padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #EAB845;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+
+#metodologia h2{
+    font-size: 60px;
+}
+
+#metodologia h2 span{
+     font-family: 'Open Sans Condensed', Arial;
+    color: #8C9092;
+    font-weight: normal;
+    font-weight: 100;
+    font-size: 40px;
 
 }
 
-#slide3_4 img {
-	border-radius: 10px;
+#problemas h1 span{
+      padding-left: 5px;
+    padding-right: 5px; 
+    background-color: #4CD0B7;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+#problemas h2{
+    font-size: 55px;
+}
+
+#problemas h2 span{
+   font-family: 'Open Sans Condensed', Arial;
+    color: #8C9092;
+    font-weight: normal;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+#problemas h3{
+    font-size: 30px;
+}
+
+#conclusion h1 span{
+       padding-left: 10px;
+    padding-right: 10px; 
+    background-color: #EAB845;
+    border-radius: 5px;
+    text-align: center;
+    color: #f5f5f5;
 }
 
 
-#slide4 h1{
-	font-size: 120px;
-	margin-bottom: 50px; 
+#conclusion h2{
+    font-size: 60px;
+}
+
+#conclusion h2 span{
+     font-family: 'Open Sans Condensed', Arial;
+    color: #8C9092;
+    font-weight: normal;
+    font-weight: 100;
+    font-size: 40px;
 
 }
 
